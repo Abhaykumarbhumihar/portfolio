@@ -7,6 +7,8 @@ class ProjectUtils {
     "assets/projects/chatttttt.png",
   ];
 
+
+
   static const List<String> icons = [
     "assets/projects/chatttttt.png",
     "assets/projects/chatttttt.png",
