@@ -17,6 +17,8 @@ class NavBarActionButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final scrollProvider = Provider.of<ScrollProvider>(context);
 
+
+
     return EntranceFader(
       offset: const Offset(0, -10),
       delay: const Duration(milliseconds: 100),
