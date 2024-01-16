@@ -37,6 +37,7 @@ class HomeDesktop extends StatelessWidget {
               ),
             ),
           ),
+
           Container(
             margin: EdgeInsets.fromLTRB(
               AppDimensions.normalize(30),
@@ -122,14 +123,14 @@ class HomeDesktop extends StatelessWidget {
               ],
             ),
           ),
-          Align(
+          const Align(
             alignment: Alignment.bottomRight,
             child: Wrap(
               children: [Padding(
-                padding: const EdgeInsets.only(top:200.0),
+                padding: EdgeInsets.only(top:200.0),
                 child: SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
-                    child: const SocialLinks()),
+                    child: SocialLinks()),
               )],
             ),
           ),
